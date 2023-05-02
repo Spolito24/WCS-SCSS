@@ -1,0 +1,90 @@
+.ring-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .ring-1 {
+    color: orange;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    border: solid 6.6666666667px;
+    box-shadow: 6.6666666667px 6.6666666667px 4px #ffdb99;
+  }
+  
+  .ring-2 {
+    color: yellow;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: solid 16.6666666667px;
+    box-shadow: 16.6666666667px 16.6666666667px 10px #ffff99;
+  }
+  
+  .growing-ring-1 {
+    color: black;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    right: 20px;
+    border-radius: 100%;
+    border: solid 3.3333333333px;
+    box-shadow: 3.3333333333px 3.3333333333px 5px #4d4d4d;
+  }
+  
+  .growing-ring-2 {
+    color: black;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    right: 20px;
+    border-radius: 100%;
+    border: solid 6.6666666667px;
+    box-shadow: 6.6666666667px 6.6666666667px 10px #4d4d4d;
+  }
+  
+  .growing-ring-3 {
+    color: black;
+    height: 60px;
+    width: 60px;
+    position: relative;
+    right: 20px;
+    border-radius: 100%;
+    border: solid 10px;
+    box-shadow: 10px 10px 15px #4d4d4d;
+  }
+  
+  .growing-ring-4 {
+    color: black;
+    height: 80px;
+    width: 80px;
+    position: relative;
+    right: 20px;
+    border-radius: 100%;
+    border: solid 13.3333333333px;
+    box-shadow: 13.3333333333px 13.3333333333px 20px #4d4d4d;
+  }
+  
+  .growing-ring-5 {
+    color: black;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    right: 20px;
+    border-radius: 100%;
+    border: solid 16.6666666667px;
+    box-shadow: 16.6666666667px 16.6666666667px 25px #4d4d4d;
+  }
+  
+  .growing-ring-6 {
+    color: black;
+    height: 120px;
+    width: 120px;
+    position: relative;
+    right: 20px;
+    border-radius: 100%;
+    border: solid 20px;
+    box-shadow: 20px 20px 30px #4d4d4d;
+  }

@@ -1,0 +1,13 @@
+@mixin ring ($x, $y, $color: orange) {
+    border-radius: 100%;
+    border: solid;
+    border-width: 100px;
+    border-color: $color;
+    width: $x;
+    height: $y;
+}
+
+.ring-1 {
+    @include ring(40px, 40px);
+    display: flex;
+}
