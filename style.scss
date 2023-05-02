@@ -1,13 +1,32 @@
-@mixin ring ($x, $y, $color: orange) {
+@mixin ring ($x, $y, $blur, $color: yellow) {
+    color: $color;
+    height: $x;
+    width: $y;
     border-radius: 100%;
-    border: solid;
-    border-width: 100px;
-    border-color: $color;
-    width: $x;
-    height: $y;
+    border: solid $y/6;
+    box-shadow : $x/6 $y/6 $blur lighten($color, 30);
+}
+
+.ring-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .ring-1 {
-    @include ring(40px, 40px);
-    display: flex;
+    @include ring(40px, 40px, 4px, orange);
+}
+
+.ring-2 {
+    @include ring(100px, 100px, 10px);
+}
+
+@for $i from 1 through 6 {
+    .growing-ring-#{$i} {
+        @include ring(20px*$i, 20px*$i, 5px*$i, black);
+        z-index: 6 - $i;
+        margin-top: -($i - 1) * 0px;
+        margin-left: -($i - 1) * 10px;
+    }
 }
